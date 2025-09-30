@@ -1,0 +1,55 @@
+:root {
+  font-size: 16px;
+  --color-text: oklch(27.9% 0.041 260.031);
+  --color-neutral: oklch(98.5% 0.002 247.839);
+  --color-error: oklch(58.6% 0.253 17.585);
+  --color-error-overlay: color-mix(
+    in oklab,
+    var(--color-error),
+    transparent 80%
+  );
+}
+
+body {
+  font-family: sans-serif;
+  background: var(--color-neutral);
+  color: var(--color-text);
+}
+
+main {
+  max-width: min(85ch, 100vw);
+  margin-inline: auto;
+  padding: calc(1rem + 3vw);
+}
+
+h2 {
+  line-height: 2;
+  margin-bottom: 4rem;
+}
+
+form {
+  display: grid;
+  gap: 2rem;
+  label:has(span + input),
+  label:has(span + select) {
+    span {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  button {
+    margin-top: 2rem;
+    display: inline-block;
+    width: fit-content;
+  }
+}
+
+pre.error {
+  padding: 1rem;
+  border: 1px solid var(--color-error);
+  background: var(--color-error-overlay);
+  border-radius: 4px;
+  /* overflow: hidden; */
+  whitespace: wrap;
+}

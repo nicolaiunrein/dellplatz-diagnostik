@@ -1,0 +1,23 @@
+{
+  "rust-analyzer": {
+    "rustfmt": {
+      "overrideCommand": ["leptosfmt", "--stdin", "--rustfmt", "--quiet"]
+    },
+    "procMacro": {
+      "enable": true,
+      "attributes": {
+        "enable": true
+      }
+    },
+    "checkOnSave": true,
+    "command": "check",
+    "cargo": {
+      "allTargets": true,
+      "loadOutDirsFromCheck": true,
+      "extraEnv": {
+        "CARGO_TARGET_DIR": "target/.rust-analyzer"
+      },
+      "extraArgs": ["--target-dir", "target/.rust-analyzer"]
+    }
+  }
+}

@@ -1,0 +1,443 @@
+[
+  {
+    "prompt": "Ich beschäftige mich lieber in Gesellschaft anderer als für mich allein, Am liebsten mache ich Dinge immer auf dieselbe Art.",
+    "id": "aq_1",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Wenn ich mir etwas vorstellen will, kann ich mir sehr leicht ein Bild davon.",
+    "id": "aq_2",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Oft vertiefe ich mich so sehr in etwas, dass ich alles um mich herum vergesse.",
+    "id": "aq_3",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Ich höre oft leise Geräusche, die anderen Menschen entgehen.",
+    "id": "aq_4",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Ich merke mir Autonummern und ähnliches.",
+    "id": "aq_5",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Ich bekomme oft gesagt, dass ich mich unhöflich verhalte, obwohl ich nicht dieser Meinung bin.",
+    "id": "aq_6",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Wenn ich eine Geschichte lese, kann ich mir die Figuren sehr gut vorstellen.",
+    "id": "aq_7",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Ich kann mich für Daten begeistern.",
+    "id": "aq_8",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "In Gesellschaft fällt es mir leicht, mehreren Unterhaltungen gleichzeitig zu folgen.",
+    "id": "aq_9",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "In Gruppen und in Gesellschaft fühle ich mich wohl.",
+    "id": "aq_10",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Ich bemerke Dinge, die andere nicht bemerken.",
+    "id": "aq_11",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Ich gehe lieber in die Bibliothek als auf eine Party.",
+    "id": "aq_12",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Es fällt mir leicht, Geschichten zu erfinden.",
+    "id": "aq_13",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Ich fühle mich eher zu Menschen als zu Dingen hingezogen.",
+    "id": "aq_14",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Ich verspüre oft sehr starke Neigungen und bin verzweifelt, wenn ich ihnen nicht nachgehen kann.",
+    "id": "aq_15",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Plauderei und Klatsch machen mir Spaß.",
+    "id": "aq_16",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Wenn ich rede, ist es für andere nicht immer leicht, sich geltend zu machen.",
+    "id": "aq_17",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Zahlen finde ich faszinierend.",
+    "id": "aq_18",
+
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Wenn ich eine Geschichte lese, fällt es mir schwer, die Absichten der Figuren zu verstehen.",
+    "id": "aq_19",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "prompt": "Ich bin kein großer Freund von Belletristik. Es fällt mir schwer, Freundschaften zu knüpfen.",
+    "id": "aq_20",
+    "options": [
+      {
+        "label": "Ich stimme nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher nicht zu",
+        "value": 0
+      },
+      {
+        "label": "Ich stimme eher zu",
+        "value": 1
+      },
+      {
+        "label": "Ich stimme zu",
+        "value": 1
+      }
+    ]
+  }
+]
