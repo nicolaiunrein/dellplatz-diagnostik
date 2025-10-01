@@ -2,6 +2,9 @@ pub mod app;
 pub mod types;
 
 #[cfg(feature = "ssr")]
+pub mod report;
+
+#[cfg(feature = "ssr")]
 pub mod db;
 
 #[cfg(feature = "hydrate")]

@@ -1,7 +1,6 @@
 use std::collections::BTreeMap;
 
 use serde::{Deserialize, Serialize};
-use uuid::Uuid;
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Opt {
@@ -18,11 +17,18 @@ pub struct Question {
 
 #[derive(Debug, Deserialize, Serialize, Clone)]
 pub struct User {
-    pub id: Uuid,
+    pub id: String,
 }
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Data {
     pub user: User,
-    pub q: BTreeMap<String, Option<usize>>,
+    pub q: BTreeMap<String, usize>,
+}
+#[derive(Debug, Deserialize, Serialize, Clone)]
+pub struct TestResultRecord {
+    pub answer_txt: String,
+    pub answer_value: usize,
+    pub question_txt: String,
+    pub question_id: String,
 }

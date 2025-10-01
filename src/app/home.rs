@@ -1,6 +1,5 @@
 use crate::types::*;
 use leptos::prelude::*;
-use uuid::Uuid;
 
 use super::ServerFnResult;
 
@@ -24,7 +23,12 @@ pub(crate) fn Page() -> impl IntoView {
         </button>
         <div>
         {move || create_user_action.value().get().map(|res| match res {
-            Ok(user) => user.id.to_string().into_any(),
+            Ok(user) => {
+                let href = format!("/tests/{}/aq", user.id);
+                view!{
+                    <a href=href>AQ</a>
+                }.into_any()
+            }
             Err(err) => view!{<pre class="error">{move || err.to_string()}</pre>}.into_any()
         })}
         </div>

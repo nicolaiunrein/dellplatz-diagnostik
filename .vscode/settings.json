@@ -13,6 +13,7 @@
     "command": "check",
     "cargo": {
       "allTargets": true,
+      "allFeatures": true,
       "loadOutDirsFromCheck": true,
       "extraEnv": {
         "CARGO_TARGET_DIR": "target/.rust-analyzer"

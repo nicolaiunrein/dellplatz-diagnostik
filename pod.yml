@@ -11,3 +11,8 @@ spec:
       ports:
         - containerPort: 8000
           hostPort: 8000
+    - name: gotenberg
+      image: gotenberg/gotenberg:8
+      ports:
+        - containerPort: 3000
+          hostPort: 30000
