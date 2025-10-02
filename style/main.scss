@@ -2,6 +2,9 @@
   font-size: 16px;
   --color-text: oklch(27.9% 0.041 260.031);
   --color-neutral: oklch(98.5% 0.002 247.839);
+  --color-surface: oklch(90% 0.02 260.031);
+  --color-surface-hover: oklch(85% 0.02 260.031);
+  --color-surface-border: oklch(70% 0.02 260.031);
   --color-error: oklch(58.6% 0.253 17.585);
   --color-error-overlay: color-mix(
     in oklab,
@@ -16,10 +19,15 @@ body {
   color: var(--color-text);
 }
 
+.logo {
+  max-width: 200px;
+}
+
 main {
   max-width: min(85ch, 100vw);
   margin-inline: auto;
-  padding: calc(1rem + 3vw);
+  padding-inline: calc(1rem + 3vw);
+  padding-bottom: 10vh;
 }
 
 h2 {
@@ -52,4 +60,27 @@ pre.error {
   border-radius: 4px;
   /* overflow: hidden; */
   whitespace: wrap;
+}
+
+.user-test-tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  a {
+    display: inline-flex;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border-radius: 4px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-surface-border);
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: bold;
+
+    transition: background 100ms ease;
+
+    &:hover {
+      background: var(--color-surface-hover);
+    }
+  }
 }

@@ -1,5 +1,7 @@
+mod error_box;
 mod form;
 mod home;
+mod user_home;
 
 use leptos::prelude::*;
 use leptos_meta::{provide_meta_context, MetaTags, Stylesheet, Title};
@@ -45,10 +47,12 @@ pub fn App() -> impl IntoView {
 
         // content for this welcome page
         <Router>
+                <img class="logo" src="/logo.webp" />
             <main>
                 <Routes fallback=|| "Page not found.".into_view()>
                     <Route path=path!("/") view=home::Page/>
-                    <Route path=path!("/tests/:user/aq") view=form::Page/>
+                    <Route path=path!("/tests/:user") view=user_home::Page/>
+                    <Route path=path!("/tests/:user/:test") view=form::Page/>
                 </Routes>
             </main>
         </Router>

@@ -1,4 +1,5 @@
 use std::collections::BTreeMap;
+use uuid::Uuid;
 
 use serde::{Deserialize, Serialize};
 
@@ -18,6 +19,7 @@ pub struct Question {
 #[derive(Debug, Deserialize, Serialize, Clone)]
 pub struct User {
     pub id: String,
+    pub retrieval_id: Uuid,
 }
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
@@ -31,4 +33,10 @@ pub struct TestResultRecord {
     pub answer_value: usize,
     pub question_txt: String,
     pub question_id: String,
+}
+
+#[derive(Debug, Deserialize, Serialize, Clone)]
+pub struct Test {
+    pub id: String,
+    pub name: String,
 }
